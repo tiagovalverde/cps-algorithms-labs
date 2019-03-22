@@ -27,14 +27,5 @@ implement number multiplication digit by digit using the following divide and co
 ## Lab 4
 
 Given a graph as input, write an algorithm to determine a minimum spanning tree.
-Create the following graph and a second graph you define it yourself.
 
-        5
-    0−−−−−−−−1
-    |  \     |
-  3 |   2\   | 7
-    |      \ |
-    2−−−−−−−−3
-        2 
-
-Minimum Spanning Tree determined using Prim's Algorithm
+Minimum Spanning Tree determined using Prim's Algorithm.
