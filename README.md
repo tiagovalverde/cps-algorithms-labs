@@ -36,4 +36,10 @@ Run a motel with N rooms. Determine if a set of bookings can be accomodated usin
 
 Problem similar to the interval scheduling for processes in a operating system. In processes interval scheduling, we look for a algorithm that assigns a much number of processes as possible in the shortest period of time. To complete that, a greddy algorithm is implemented to obtain the shortest processes first.
 
-The same approach is used with the room accomodation, which sorts the bookings by shortest period and in a greedy way books the smallest bookings first. This allows to encounter a day that the number of rooms may be greater than the maximum number of rooms available sooner.   
+The same approach is used with the room accomodation, which sorts the bookings by shortest period and in a greedy way books the smallest bookings first. This allows to encounter a day that the number of rooms may be greater than the maximum number of rooms available sooner.
+
+### Lab 6 - Dynamic Programming
+
+Imagine carrying a knackpack that holds up to a certain amount of weight. There is n items available to put in the knapsack and each item has a associated weight. WSelect the items that have the greatest values such that the items you choose dont exceed a specific limited weight limit.
+
+To solve this problem the **knapsack algorithm** is used. It is considered a dynamic algorithm because avoids overlapping of repeated calculations by creating a table  to store the already computations performed.
