@@ -24,10 +24,11 @@ int main()
     int W = 26;
 
 
-    cout << "=========================================\n" 
-         << "Maximum item value that can be carried " 
-         << knapsack(weight, value, n, W)
-         << "\n=========================================";
+    int max_value = knapsack(weight, value, n, W);
+    cout << "\n   ============================================\n" 
+         << "   Maximum item value that can be carried: " 
+         << max_value
+         << "\n   ============================================\n";
 
     return 0;
 }
@@ -58,7 +59,7 @@ int knapsack(int weight[], int value[], int n, int W) {
     }
 
     // visualize table with computed values
-    for(int i = 0; i <= n; i++) {
+     for(int i = 0; i <= n; i++) {
         cout << endl;
         for(int w = 0; w <= W; w++) {
             cout.width(4);
